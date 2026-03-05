@@ -169,7 +169,6 @@ Running the Project
 npm install
 
 Set Environment Variables:
-cp .env.example .env
 # Add GEMINI_API_KEY and Firestore credentials
 
 Start Server:
