@@ -21,21 +21,4 @@ export function validateProposal(proposal, maxBudget) {
     throw new Error("Impact summary missing or too short");
   }
 }
-// export function validateProposal(data, budget) {
-//   if (data.budgetUsed > budget) {
-//     throw new Error("Budget exceeded");
-//   }
 
-//   const calculated = data.productMix.reduce(
-//     (sum, item) => sum + item.totalCost,
-//     0
-//   );
-
-//   if (calculated !== data.budgetUsed) {
-//     throw new Error("Budget mismatch");
-//   }
-
-//   if (data.remainingBudget !== budget - data.budgetUsed) {
-//     throw new Error("Remaining budget incorrect");
-//   }
-// }
