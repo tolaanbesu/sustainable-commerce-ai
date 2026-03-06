@@ -118,7 +118,7 @@ Structured JSON:
 Architecture Overview
 +-------------------+       +-------------------+
 |   Frontend        | <-->  |   Backend API     |
-|   (react.js/Postman)       |       | (Node.js/Express) |
+|(react.js/Postman) |       | (Node.js/Express) |
 +-------------------+       +-------------------+
           |                          |
           v                          v
@@ -186,7 +186,7 @@ Set Environment Variables
 Add GEMINI_API_KEY and Firestore credentials.
 
 Start Server
-npm run dev
+npm start
 Test Modules in Postman
 Module 1
 /api/catalog/auto-category

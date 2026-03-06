@@ -30,7 +30,7 @@ export async function getStructuredCompletion(prompt) {
     }
 
     const rawOutput = result.response.text();
-     console.log(rawOutput);
+     
     if (!rawOutput) {
       throw new Error("AI response text is empty");
     }
