@@ -118,7 +118,7 @@ Structured JSON:
 Architecture Overview
 +-------------------+       +-------------------+
 |   Frontend        | <-->  |   Backend API     |
-|   (Postman)       |       | (Node.js/Express) |
+|   (react.js/Postman)       |       | (Node.js/Express) |
 +-------------------+       +-------------------+
           |                          |
           v                          v
