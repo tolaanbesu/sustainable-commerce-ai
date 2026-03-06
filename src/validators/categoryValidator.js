@@ -16,8 +16,8 @@ const allowedFilters = [
   "carbon-neutral",
   "locally-sourced",
   "sustainable material",
-  "sustainable materials",   // <-- add plural
-  "renewable resource",      // <-- add this
+  "sustainable materials",   
+  "renewable resource",      
 ];
 
 export function validateCategoryOutput(data) {
